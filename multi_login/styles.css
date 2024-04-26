@@ -1,0 +1,74 @@
+/* Basic Styles Starts */
+/* Reset Style */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Default Typography */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+/* Navigation Bar */
+.navigation-bar {
+    background-color:#0a4f51;
+    padding: 10px 10px;
+}
+/* List Items */
+.main-menu,
+.submenu-item {
+    list-style-type: none;
+}
+/* Anchor Tags */
+.menu-item a,
+.logo {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+/* Basic Styles Ends */
+/* Adding Styles to Logo and Menu Items Start */
+.logo {
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.menu-item {
+    text-align: center;
+    padding: 12px 0;
+}
+/* Adding Styles to Logo and Menu Items Ends */
+.toggle-button {
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+    cursor: pointer; 
+}
+.main-menu {
+    display: none;
+}
+.active.main-menu {
+    display: block;
+}
+.has-submenu > a::after {
+    content: "\2B9F";
+    font-size: 14px;
+    padding-left: 4px;
+    vertical-align: top;
+}
+.submenu-item a {
+    display: inline-block;
+    padding-top: 12px;
+}
+.submenu-active {
+    background-color: #5F9EA0;
+}
+.submenu {
+    display: none;
+}
+.submenu-active .submenu {
+    display: block;
+}
