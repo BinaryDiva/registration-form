@@ -40,7 +40,9 @@
                                                 <br>
                                                 <a href="index.php?logout='1'" style="color: red;">logout</a>
                                         </small>
-
+                                        <div class="centered-link">
+                                            <a href="user-homepage.php">Click here to continue</a>
+                                        </div>
                                 <?php endif ?>
                         </div>
                 </div>
