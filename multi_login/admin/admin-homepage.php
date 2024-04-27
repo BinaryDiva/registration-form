@@ -35,62 +35,7 @@
   </nav>
 
 
-  <div class="card-container">
-    <div class="card">
-        <img src="image1.jpg" alt="Card 1">
-        <h2>Card 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="card">
-        <img src="image2.jpg" alt="Card 1">
-        <h2>Card 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="card">
-        <img src="image3.jpg" alt="Card 1">
-        <h2>Card 3</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <!-- Repeat the card structure for more items -->
-</div>
 
-<div class="card-container">
-  <div class="card">
-      <img src="image1.jpg" alt="Card 1">
-      <h2>Card 1</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </div>
-  <div class="card">
-      <img src="image2.jpg" alt="Card 1">
-      <h2>Card 2</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </div>
-  <div class="card">
-      <img src="image3.jpg" alt="Card 1">
-      <h2>Card 3</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </div>
-  <!-- Repeat the card structure for more items -->
-</div>
-
-<div class="card-container">
-  <div class="card">
-      <img src="image1.jpg" alt="Card 1">
-      <h2>Card 1</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </div>
-  <div class="card">
-      <img src="image2.jpg" alt="Card 1">
-      <h2>Card 2</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </div>
-  <div class="card">
-      <img src="image3.jpg" alt="Card 1">
-      <h2>Card 3</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </div>
-  <!-- Repeat the card structure for more items -->
-</div>
  <script>
         const toggleButton = document.querySelector(".toggle-button");
 const mainMenu = document.querySelector(".main-menu");
@@ -127,7 +72,17 @@ for (let menuItem of menuItems) {
         menuItem.addEventListener("keypress", toggleItem, false);
     }   
 }
-
+/* Close Submenu From Anywhere */
+function closeSubmenu(e) {
+    if (mainMenu.querySelector(".submenu-active")) {
+      let isClickInside = mainMenu.querySelector(".submenu-active").contains(e.target);
+      if (!isClickInside && mainMenu.querySelector(".submenu-active")) {
+        mainMenu.querySelector(".submenu-active").classList.remove("submenu-active");
+      }
+    }
+  }
+/* Event listener */
+  document.addEventListener("click", closeSubmenu, false);
 
 
 
