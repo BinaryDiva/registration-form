@@ -99,13 +99,17 @@ body {
     width: 200px;
     text-align: left;
 }
-@media screen and (min-width: 1025px) {
-    /* Hide Toggle */
-    .toggle-button {
-        display: none;
-     }
-    /* Make Menu Visible */
-     .main-menu {
-         display: block;
-     }
+/* styles.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    word-wrap: break-word;
+}
+.card {
+    width: 150px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
 }
