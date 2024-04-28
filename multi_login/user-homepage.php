@@ -11,7 +11,7 @@
 <nav class="navigation-bar">
       <a href="#" class="logo">MiTech Inc.</a>
       <ul class="main-menu">
-          <li class="menu-item"><a href="#">Home</a></li>
+          <li class="menu-item"><a href="user-homepage.php">Home</a></li>
           <li class="menu-item has-submenu"><a tabindex="0">Articles</a>
             <ul class="submenu">
                 <li class="submenu-item"><a href="#">Technology</a></li>
@@ -28,12 +28,12 @@
                 <li class="submenu-item"><a href="#">Copywriting</a></li>
             </ul>
           </li>
-          <li class="menu-item"><a href="#">About Us</a></li>
-          <li class="menu-item"><a href="#">Contact Us</a></li>
+          <li class="menu-item"><a href="user-aboutus.php">About Us</a></li>
+          <li class="menu-item"><a href="user-contact.php">Contact Us</a></li>
       </ul>
       <span class="toggle-button" >&#9776;</span>
   </nav>
-<section>
+<section class="content">
   <div class="box">
     <h4>Software Engineer at Tech Innovations Inc.</h4>
     <p class="job">
@@ -47,20 +47,21 @@
     <p class="sal">
     Salary Range: $80,000 - $120,000 per year
     </p>
+    <button class="apply"> Apply now</button>
   </div>
   <div class="box">
-    <h4>Software Engineer at Tech Innovations Inc.</h4>
+    <h4>Customer Service Representative at Global Solutions Inc.</h4>
     <p class="job">
-    Responsibilities: Design, develop, and test software solutions, 
-    collaborate with cross-functional teams to define requirements, and troubleshoot issues
+    Responsibilities: Respond to customer inquiries,
+     resolve issues, process orders, and maintain customer records.
     </p>
     <p class="qualify">
-    Qualifications: Bachelor's 
-    degree in Computer Science or related field, proficiency in programming languages like Java or Python, and experience with Agile development methodologies.
+    Qualifications: High school diploma or equivalent, excellent communication skills, and experience in customer service.
     </p>
     <p class="sal">
-    Salary Range: $80,000 - $120,000 per year
+    Salary Range: $30,000 - $40,000 per year
     </p>
+    <button class="apply"> Apply now</button>
   </div>
   <div class="box">
     <h4>Marketing Manager at BrightSpark Marketing Solutions.</h4>
@@ -74,37 +75,42 @@
     <p class="sal">
     Salary Range:$60,000 - $90,000 per year
     </p>
+    <button class="apply"> Apply now</button>
   </div>
   <div class="box">
-    <h4>Software Engineer at Tech Innovations Inc.</h4>
+    <h4>Graphic Designer at CreativeWorks Studios</h4>
     <p class="job">
-    Responsibilities: Design, develop, and test software solutions, 
-    collaborate with cross-functional teams to define requirements, and troubleshoot issues
+    Responsibilities: Create visual concepts, develop design solutions, 
+    and collaborate with clients to understand their needs.
     </p>
     <p class="qualify">
-    Qualifications: Bachelor's 
-    degree in Computer Science or related field, proficiency in programming languages like Java or Python, and experience with Agile development methodologies.
+    Bachelor's degree in Graphic Design or a related field, proficiency in design software like Adobe Creative Suite, and a strong portfolio.
     </p>
     <p class="sal">
-    Salary Range: $80,000 - $120,000 per year
+    Salary Range: $45,000 - $70,000 per year
     </p>
+    <button class="apply"> Apply now</button>
   </div>
   <div class="box">
-    <h4>Software Engineer at Tech Innovations Inc.</h4>
+    <h4>Data Analyst at Insight Analytics Solutions</h4>
     <p class="job">
-    Responsibilities: Design, develop, and test software solutions, 
-    collaborate with cross-functional teams to define requirements, and troubleshoot issues
+    Responsibilities:  Collect and analyze data, identify trends, prepare reports, and present findings 
+    to stakeholders.
+
     </p>
     <p class="qualify">
-    Qualifications: Bachelor's 
-    degree in Computer Science or related field, proficiency in programming languages like Java or Python, and experience with Agile development methodologies.
+    Qualifications: Bachelor's degree in Statistics, Mathematics, Computer Science, 
+    or a related field, proficiency in data analysis tools like SQL and Excel, and attention to detail.
     </p>
     <p class="sal">
-    Salary Range: $80,000 - $120,000 per year
+    Salary Range: $55,000 - $90,000 per year
     </p>
+    <button class="apply"> Apply now</button>
   </div>
 </section>
-
+<footer class="footer">
+  <p>&copy; 2024 MiTech Inc. All rights reserved.</p>
+</footer>
 
  <script>
         const toggleButton = document.querySelector(".toggle-button");

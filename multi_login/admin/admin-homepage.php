@@ -33,7 +33,85 @@
       </ul>
       <span class="toggle-button" >&#9776;</span>
   </nav>
+<!-- section styling -->
+  <section>
+  <div class="box">
+    <h4>Software Engineer at Tech Innovations Inc.</h4>
+    <p class="job">
+    Responsibilities: Design, develop, and test software solutions, 
+    collaborate with cross-functional teams to define requirements, and troubleshoot issues
+    </p>
+    <p class="qualify">
+    Qualifications: Bachelor's 
+    degree in Computer Science or related field, proficiency in programming languages like Java or Python, and experience with Agile development methodologies.
+    </p>
+    <p class="sal">
+    Salary Range: $80,000 - $120,000 per year
+    </p>
+    <button> Apply now</button>
+  </div>
+  <div class="box">
+    <h4>Customer Service Representative at Global Solutions Inc.</h4>
+    <p class="job">
+    Responsibilities: Respond to customer inquiries,
+     resolve issues, process orders, and maintain customer records.
+    </p>
+    <p class="qualify">
+    Qualifications: High school diploma or equivalent, excellent communication skills, and experience in customer service.
+    </p>
+    <p class="sal">
+    Salary Range: $30,000 - $40,000 per year
+    </p>
+    <button> Apply now</button>
+  </div>
+  <div class="box">
+    <h4>Marketing Manager at BrightSpark Marketing Solutions.</h4>
+    <p class="job">
+    Responsibilities: Develop and implement marketing strategies, manage advertising campaigns, 
+    analyze market trends, and oversee social media presence.
+    </p>
+    <p class="qualify">
+    Qualifications: Bachelor degree in Marketing or a related field, 
+    strong communication skills, experience with marketing tools and analytics platforms.
+    <p class="sal">
+    Salary Range:$60,000 - $90,000 per year
+    </p>
+    <button> Apply now</button>
+  </div>
+  <div class="box">
+    <h4>Graphic Designer at CreativeWorks Studios</h4>
+    <p class="job">
+    Responsibilities: Create visual concepts, develop design solutions, 
+    and collaborate with clients to understand their needs.
+    </p>
+    <p class="qualify">
+    Bachelor's degree in Graphic Design or a related field, proficiency in design software like Adobe Creative Suite, and a strong portfolio.
+    </p>
+    <p class="sal">
+    Salary Range: $45,000 - $70,000 per year
+    </p>
+    <button> Apply now</button>
+  </div>
+  <div class="box">
+    <h4>Data Analyst at Insight Analytics Solutions</h4>
+    <p class="job">
+    Responsibilities:  Collect and analyze data, identify trends, prepare reports, and present findings 
+    to stakeholders.
 
+    </p>
+    <p class="qualify">
+    Qualifications: Bachelor's degree in Statistics, Mathematics, Computer Science, 
+    or a related field, proficiency in data analysis tools like SQL and Excel, and attention to detail.
+    </p>
+    <p class="sal">
+    Salary Range: $55,000 - $90,000 per year
+    </p>
+    <button> Apply now</button>
+  </div>
+</section>
+<footer class="footer">
+  <p>&copy; 2024 Your Company. All rights reserved.</p>
+</footer>
 
 
  <script>
