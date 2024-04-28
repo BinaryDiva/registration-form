@@ -33,7 +33,77 @@
       </ul>
       <span class="toggle-button" >&#9776;</span>
   </nav>
-
+<section>
+  <div class="box">
+    <h4>Software Engineer at Tech Innovations Inc.</h4>
+    <p class="job">
+    Responsibilities: Design, develop, and test software solutions, 
+    collaborate with cross-functional teams to define requirements, and troubleshoot issues
+    </p>
+    <p class="qualify">
+    Qualifications: Bachelor's 
+    degree in Computer Science or related field, proficiency in programming languages like Java or Python, and experience with Agile development methodologies.
+    </p>
+    <p class="sal">
+    Salary Range: $80,000 - $120,000 per year
+    </p>
+  </div>
+  <div class="box">
+    <h4>Software Engineer at Tech Innovations Inc.</h4>
+    <p class="job">
+    Responsibilities: Design, develop, and test software solutions, 
+    collaborate with cross-functional teams to define requirements, and troubleshoot issues
+    </p>
+    <p class="qualify">
+    Qualifications: Bachelor's 
+    degree in Computer Science or related field, proficiency in programming languages like Java or Python, and experience with Agile development methodologies.
+    </p>
+    <p class="sal">
+    Salary Range: $80,000 - $120,000 per year
+    </p>
+  </div>
+  <div class="box">
+    <h4>Marketing Manager at BrightSpark Marketing Solutions.</h4>
+    <p class="job">
+    Responsibilities: Develop and implement marketing strategies, manage advertising campaigns, 
+    analyze market trends, and oversee social media presence.
+    </p>
+    <p class="qualify">
+    Qualifications: Bachelor degree in Marketing or a related field, 
+    strong communication skills, experience with marketing tools and analytics platforms.
+    <p class="sal">
+    Salary Range:$60,000 - $90,000 per year
+    </p>
+  </div>
+  <div class="box">
+    <h4>Software Engineer at Tech Innovations Inc.</h4>
+    <p class="job">
+    Responsibilities: Design, develop, and test software solutions, 
+    collaborate with cross-functional teams to define requirements, and troubleshoot issues
+    </p>
+    <p class="qualify">
+    Qualifications: Bachelor's 
+    degree in Computer Science or related field, proficiency in programming languages like Java or Python, and experience with Agile development methodologies.
+    </p>
+    <p class="sal">
+    Salary Range: $80,000 - $120,000 per year
+    </p>
+  </div>
+  <div class="box">
+    <h4>Software Engineer at Tech Innovations Inc.</h4>
+    <p class="job">
+    Responsibilities: Design, develop, and test software solutions, 
+    collaborate with cross-functional teams to define requirements, and troubleshoot issues
+    </p>
+    <p class="qualify">
+    Qualifications: Bachelor's 
+    degree in Computer Science or related field, proficiency in programming languages like Java or Python, and experience with Agile development methodologies.
+    </p>
+    <p class="sal">
+    Salary Range: $80,000 - $120,000 per year
+    </p>
+  </div>
+</section>
 
 
  <script>
