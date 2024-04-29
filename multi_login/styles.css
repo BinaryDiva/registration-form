@@ -171,6 +171,7 @@ body {
   }
   /* Contact us styling */
   .contact-container {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     max-width: 500px;
     margin: 50px auto;
     padding: 20px;
@@ -205,15 +206,89 @@ input[type="checkbox"] {
 }
 
 .contact-btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
+      display: inline-block;
+        padding: 12px 24px;
+        margin-top: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 8px;
+        background-color: #2557a7;
+        border: none;
+        transition: background-color 0.3s;
+        cursor: pointer;
 }
 
 .contact-btn:hover {
-    background-color: #45a049;
+    background-color: #5F9EA0;
+}
+
+/* About us styling */
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.about-text {
+    color: #666;
+    line-height: 1.6;
+}
+
+.team-member {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin: 20px;
+}
+
+.team-member .member-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-member .member-info:hover {
+    transform: translateY(-5px);
+}
+
+.member-name {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #333;
+}
+
+.member-role {
+    font-style: italic;
+    color: #666;
+}
+.social-media a {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #2557a7;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-media a:hover {
+    background-color: #5F9EA0;
 }

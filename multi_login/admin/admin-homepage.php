@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiTech Jobs</title>
     <link rel="stylesheet" href="../styles.css">
+    <style>
+
+    </style>
    
 </head>
 <body>
 <nav class="navigation-bar">
       <a href="#" class="logo">MiTech Inc.</a>
       <ul class="main-menu">
-          <li class="menu-item"><a href="#">Home</a></li>
+          <li class="menu-item"><a href="admin-homepage.php">Home</a></li>
           <li class="menu-item has-submenu"><a tabindex="0">Articles</a>
             <ul class="submenu">
                 <li class="submenu-item"><a href="#">Technology</a></li>
@@ -28,13 +31,13 @@
                 <li class="submenu-item"><a href="#">Copywriting</a></li>
             </ul>
           </li>
-          <li class="menu-item"><a href="#">About Us</a></li>
-          <li class="menu-item"><a href="#">Contact Us</a></li>
+          <li class="menu-item"><a href="../user-aboutus.php">About Us</a></li>
+          <li class="menu-item"><a href="../user-contact.php">Contact Us</a></li>
       </ul>
       <span class="toggle-button" >&#9776;</span>
   </nav>
 <!-- section styling -->
-  <section>
+  <section class="content">
   <div class="box">
     <h4>Software Engineer at Tech Innovations Inc.</h4>
     <p class="job">
@@ -48,7 +51,7 @@
     <p class="sal">
     Salary Range: $80,000 - $120,000 per year
     </p>
-    <button> Apply now</button>
+    <button class="contact-btn"> Add a new job</button>
   </div>
   <div class="box">
     <h4>Customer Service Representative at Global Solutions Inc.</h4>
@@ -62,7 +65,7 @@
     <p class="sal">
     Salary Range: $30,000 - $40,000 per year
     </p>
-    <button> Apply now</button>
+    <button class="contact-btn"> Add a new job</button>
   </div>
   <div class="box">
     <h4>Marketing Manager at BrightSpark Marketing Solutions.</h4>
@@ -76,7 +79,7 @@
     <p class="sal">
     Salary Range:$60,000 - $90,000 per year
     </p>
-    <button> Apply now</button>
+    <button class="contact-btn"> Apply now</button>
   </div>
   <div class="box">
     <h4>Graphic Designer at CreativeWorks Studios</h4>
@@ -90,7 +93,7 @@
     <p class="sal">
     Salary Range: $45,000 - $70,000 per year
     </p>
-    <button> Apply now</button>
+    <button class="contact-btn"> Add a new job</button>
   </div>
   <div class="box">
     <h4>Data Analyst at Insight Analytics Solutions</h4>
@@ -106,7 +109,7 @@
     <p class="sal">
     Salary Range: $55,000 - $90,000 per year
     </p>
-    <button> Apply now</button>
+    <button class="contact-btn"> Add a new job</button>
   </div>
 </section>
 <footer class="footer">

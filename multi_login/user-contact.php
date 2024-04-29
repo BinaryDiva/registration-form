@@ -28,8 +28,8 @@
                 <li class="submenu-item"><a href="#">Copywriting</a></li>
             </ul>
           </li>
-          <li class="menu-item"><a href="#">About Us</a></li>
-          <li class="menu-item"><a href="#">Contact Us</a></li>
+          <li class="menu-item"><a href="user-aboutus.php">About Us</a></li>
+          <li class="menu-item"><a href="user-contact.php">Contact Us</a></li>
       </ul>
       <span class="toggle-button" >&#9776;</span>
   </nav>
@@ -37,8 +37,8 @@
     
     
 <div class="contact-container">
-    <h2>Contact Me</h2>
-    <form action="submit.php" method="post">
+    <h2>Contact Us</h2>
+    <form action="user-homepage.php" method="post">
         <div class="form-group">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Your name" required>
@@ -59,11 +59,11 @@
         <div class="form-group">
             <label>Interested in:</label><br>
             <input type="checkbox" id="product1" name="product[]" value="Product 1">
-            <label for="product1">Product 1</label><br>
+            <label for="product1">Jobs</label><br>
             <input type="checkbox" id="product2" name="product[]" value="Product 2">
-            <label for="product2">Product 2</label><br>
+            <label for="product2">Advertisement</label><br>
             <input type="checkbox" id="product3" name="product[]" value="Product 3">
-            <label for="product3">Product 3</label>
+            <label for="product3">Become an Employer</label>
         </div>
         <div class="form-group">
             <label for="message">Message:</label>
@@ -81,9 +81,9 @@
         <button type="submit" class="contact-btn">Submit</button>
     </form>
 </div>
+<footer class="footer">
+  <p>&copy; 2024 MiTech Inc. All rights reserved.</p>
+</footer>
 </body>
 </html>
 
-
-</body>
-</html>
